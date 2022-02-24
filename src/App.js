@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
+
+  const me = {
+    name: "Osiris Contreras",
+    age: 24,
+    movie: "Jojo Rabbit",
+    music: "Indie Folk"
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='card'>
+        <h2>About me</h2>
+        <li> <b>Nombre: </b> {me.name} </li>
+        <li> <b>Edad: </b> {me.age} </li>
+        <li> <b>Pelicula favorita: </b> {me.movie} </li>
+        <li> <b>Musica favorita: </b> {me.music} </li>
+      </div>
     </div>
   );
 }
