@@ -1,6 +1,6 @@
 const FavFood = () => {
     return (
-      <div className='cardFavFood'>
+      <div className='card + cardFavFood'>
         <h2>Favorite Food</h2>
         <li>Pollo con verduras</li>
         <li>Pizza</li>

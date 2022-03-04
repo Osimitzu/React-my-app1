@@ -1,6 +1,6 @@
 const Hobbies = () => {
     return (
-      <div className='cardHobbies'>
+      <div className='card + cardHobbies'>
         <h2>Hobbies</h2>
         <li>Bailar</li>
         <li>Videojuegos</li>

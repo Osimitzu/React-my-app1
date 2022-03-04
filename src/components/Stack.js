@@ -1,6 +1,6 @@
 const Stack = () => {
     return (
-      <div className='cardStack'>
+      <div className='card + cardStack'>
         <h2>Stack</h2>
         <li>HTML//CSS</li>
         <li>JavaScript</li>
