@@ -1,26 +1,60 @@
 
 body{
-  background-color: rgb(92, 91, 91);
+  background-color: lightgrey ;
 }
 
 .App {
-  text-align: center;
   /* background-color: pink; */
   padding: 20px;
-  display: flex;
-  justify-content: center;
   margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
 }
 
-.card {
-  background-color: pink;
+h2 {
+  text-align: center;
+}
+
+.cardAboutMe {
+  background-color: lightpink;
   padding: 10px;
   width: 350px;
   border-radius: 20px;
+  box-shadow: 8px 6px 20px;
+  list-style: none;
 }
 
-.card li {
-  list-style: none;
+.cardHobbies {
+  background-color: lightyellow;
+  padding: 10px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 8px 6px 20px;
+}
+
+.cardFreeTime {
+  background-color: lightsalmon;
+  padding: 10px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 8px 6px 20px;
+}
+
+.cardFavFood {
+  background-color: lightcyan;
+  padding: 10px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 8px 6px 20px;
+}
+
+.cardStack {
+  background-color: lightskyblue;
+  padding: 10px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 8px 6px 20px;
 }
 
 .App-logo {
